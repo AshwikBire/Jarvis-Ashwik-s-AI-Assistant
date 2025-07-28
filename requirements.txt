@@ -1,43 +1,23 @@
-# Streamlit UI
+# Core Framework
 streamlit
-
-# OpenAI and GPT support
 openai
+langchain
 python-dotenv
 
-# Multilingual detection
-langdetect
-
-# Speech Recognition & TTS
-speechrecognition
-pyttsx3
-
-# Optional: Only if using Google recognizer as fallback
-pyaudio; sys_platform == 'win32'
-
-# Automation support
-pyautogui
-pynput
-
-# Web Search & Web Scraping
-duckduckgo-search
+# Utility Libraries
 requests
-beautifulsoup4
-
-# Fuzzy search and string matching
+duckduckgo-search
 fuzzywuzzy
 python-Levenshtein
+pyautogui
+pynput
+pywin32
 
-# LangChain for agent/plugin-style architecture
-langchain-community
+# Optional: For voice (if needed locally or future TTS integration)
+gTTS
+speechrecognition
+pyaudio
 
-# Optional: LiveKit plugins (comment these if not using or deploying on Streamlit Cloud)
-# livekit
-# livekit-agents
-# livekit-plugins-openai
-# livekit-plugins-silero
-# livekit-plugins-google
-# livekit-plugins-noise-cancellation
-
-# Windows-specific support (only for local machine, not Cloud)
-pywin32; sys_platform == 'win32'
+# Optional: For language detection and translation
+langdetect
+googletrans==4.0.0rc1
