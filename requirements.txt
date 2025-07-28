@@ -1,15 +1,43 @@
-livekit-agents
-livekit-plugins-openai
-livekit-plugins-silero
-livekit-plugins-google
-livekit-plugins-noise-cancellation
-langchain-community
-requests
+# Streamlit UI
+streamlit
+
+# OpenAI and GPT support
+openai
 python-dotenv
-duckduckgo-search
-fuzzywuzzy
+
+# Multilingual detection
+langdetect
+
+# Speech Recognition & TTS
+speechrecognition
+pyttsx3
+
+# Optional: Only if using Google recognizer as fallback
+pyaudio; sys_platform == 'win32'
+
+# Automation support
 pyautogui
 pynput
+
+# Web Search & Web Scraping
+duckduckgo-search
+requests
+beautifulsoup4
+
+# Fuzzy search and string matching
+fuzzywuzzy
 python-Levenshtein
-pywin32
-livekit
+
+# LangChain for agent/plugin-style architecture
+langchain-community
+
+# Optional: LiveKit plugins (comment these if not using or deploying on Streamlit Cloud)
+# livekit
+# livekit-agents
+# livekit-plugins-openai
+# livekit-plugins-silero
+# livekit-plugins-google
+# livekit-plugins-noise-cancellation
+
+# Windows-specific support (only for local machine, not Cloud)
+pywin32; sys_platform == 'win32'
