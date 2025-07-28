@@ -13,11 +13,11 @@ pyautogui
 pynput
 pywin32
 
-# Optional: For voice (if needed locally or future TTS integration)
+# Voice Input/Output (for local use)
 gTTS
-speechrecognition
+SpeechRecognition
 pyaudio
 
-# Optional: For language detection and translation
+# Language Detection & Translation
 langdetect
 googletrans==4.0.0rc1
